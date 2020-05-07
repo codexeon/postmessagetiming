@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  script(src='javascripts/index.js', type='text/javascript')
+  h1= title
+  button(id='addiframe') Add Iframe
+  div(id='pageorigin')
+  div
+    label sent messages:
+    input(type='text', id='sent')
+  div
+    label received messages:
+    input(type='text', id='received')
+  div
+    label invalid timestamps:
+    input(type='text', id='invalid')
