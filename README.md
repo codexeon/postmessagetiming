@@ -7,5 +7,5 @@
 - NPM install/npm run
 - Navigate to the URL: http://www.testsite1.com:3000/
 - Click "Add Iframe" button
-- Look ad invalid timestamps. Refresh page if it is not reproing. This repros on Edge/Chrome, but not IE/firefox.
+- Look at invalid timestamps. Refresh page if it is not reproing. This repros on Edge/Chrome, but not IE/firefox.
 - You can also set the iframe to the same domain as main frame and you will not repro.
